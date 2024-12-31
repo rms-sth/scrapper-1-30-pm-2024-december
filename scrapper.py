@@ -1,3 +1,8 @@
+import sqlite3
+import requests
+from bs4 import BeautifulSoup
+
+
 # python -m pip install requests
 # => get data from web (html, json, xml)
 # python -m pip install beautifulsoup4
@@ -7,10 +12,6 @@
 # git config --global user.name "Ramesh Pradhan"
 # git config --global user.email "pyrameshpradhan@gmail.com"
 
-
-import sqlite3
-import requests
-from bs4 import BeautifulSoup
 
 URL = "http://books.toscrape.com/"
 
