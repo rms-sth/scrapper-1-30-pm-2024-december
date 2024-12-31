@@ -12,6 +12,10 @@ from bs4 import BeautifulSoup
 # git config --global user.name "Ramesh Pradhan"
 # git config --global user.email "pyrameshpradhan@gmail.com"
 
+# git status # file ma k k change xa
+# git diff # file vitra k k change xa
+# git add . # file track garxa
+# git commit -m "message" # k kam gareko xa
 
 URL = "http://books.toscrape.com/"
 
